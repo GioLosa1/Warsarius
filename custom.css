@@ -1,14 +1,31 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+
 .container-fluid {
-    color: white;
+    border-radius: 10;
     background-color: rgb(14, 12, 12);
-    height: 80px;
+    height: 100px;
     width: 100%;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar {
+    height: 100px;
+    margin-top: -8px;
 }
 
 
+    
+    
+
 .navbar-brand {
     color: white;
+    font-size: 25px;
     width: 15%;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-nav {
@@ -30,23 +47,55 @@
     width: 20%;
 }
 
+.lead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: xx-large;
+
+
+}
+button {
+    
+    background-color: rgb(14, 12, 12);
+    border-style: none;
+    
+}
 
 .header-div{
-    height: 500px;
+    height: 300px;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(65, 65, 68);
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .col-lg-6 {
-    margin-top: 150px;
+    margin-top: 80px;
+    width: 200px;
 }
 .d-grid {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .btn-outline-secondary {
     width: 250px;
+}
+.info {
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 40px;
+    position: absolute; bottom: 0px;
+    
+}
+.icon {
+    width: 20px;
+    height: 20px;
 }
 
 
