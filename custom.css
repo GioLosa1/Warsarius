@@ -1,0 +1,52 @@
+.container-fluid {
+    color: white;
+    background-color: rgb(14, 12, 12);
+    height: 80px;
+    width: 100%;
+}
+
+
+.navbar-brand {
+    color: white;
+    width: 15%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  
+}
+.header-items {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.d-flex {
+    width: 20%;
+}
+
+
+.header-div{
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.col-lg-6 {
+    margin-top: 150px;
+}
+.d-grid {
+    margin-top: 100px;
+}
+.btn-outline-secondary {
+    width: 250px;
+}
+
+
