@@ -2,11 +2,15 @@ body {
 background-color:#000000; 
 }
 hr {
-    background: black;
-    border-bottom: 1px dashed white;
-    &:before { border: 1px dashed white;
-      border-radius: 20px;
-    }
+    
+        width: 5%;
+        border-style: none;
+        border-top-style: dotted;
+        border-width: 5px;
+        border-color: rgb(236, 235, 235);
+        margin: auto;
+        
+    
   }
 
 .header {
@@ -76,7 +80,7 @@ margin-left: 90px;
     justify-content: center;
     text-align: center;
     gap: 30px;  
-    padding: 0px;
+    padding: 35px;
 }
 
 
@@ -88,13 +92,16 @@ margin-left: 90px;
     display: flex; 
     justify-content: center;  
     gap: 50px;  
-    height: fit-content;  
+    height: fit-content; 
+    padding: 30px; 
+    height: 500px;
 }
 
 .lullaby-cover {
    display: flex;
-   justify-content: flex-start;
-   height: 500px;
+   height: 100%;
+   
+  
 }
 .lullaby-list {
     
@@ -209,7 +216,10 @@ a {
     display: none;
 }
 
-
+.listen {
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -247,13 +257,21 @@ a {
 @media screen and ((min-width: 798px) and (max-width: 1060px))
  { 
     .container-cover {
-            display: flex;
-            gap: 50px;
+        display: flex; 
+        justify-content: center;
+        height: 100%;
+        gap: 50px;
+        padding: 30px;
+        padding-top: 20px;
+        
     }
-    .lullaby-list  {
-    display: flex;
+    .lullaby-list{
+        width: 100%;
+    }
+    .lullaby-list-cover {
+        width: 100%;                     
+    }
     
- }
  .lullaby-cover-img {
     width: 100%;
     height: 100%;
@@ -285,12 +303,14 @@ h5{
         border-radius: 15px;
        }
 
-        .container-cover {
-            display: flex;
-            gap: 10px;
-            height: 100%;
-            
-        }
+       .container-cover {
+        display: flex; 
+        height: 100%;
+        gap: 50px;
+        padding: 30px;
+        padding-top: 20px;
+        
+    }
 
         .lullaby-list  {
             display: flex;
@@ -321,12 +341,17 @@ h5{
             font-size: 10px;  
          }
         .live {
-            height: 120px;
+            height: 100%;
+            padding-bottom: 20px;
         }
         .image {
             height: 200px;
             width: 200px;
             border-radius: 5%;
+        }
+        .listen {
+            display: flex;
+            justify-content: center;
         }
         
 }
@@ -335,7 +360,7 @@ h5{
 {      .lullaby-cover {
     display: flex;
     height: 320px;
-    width: 150px;
+    width: 250px;
    }
    .lullaby-cover-img {
     width: 100%;
@@ -344,16 +369,23 @@ h5{
 
    }
 
-    .container-cover {
-        display: flex;  
-        height: 100%;
-        
-        
-    }
+   .container-cover {
+    display: flex; 
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 0;
+    padding-top: 20px;
+    
+}
 
-    .lullaby-list  {
-        display: flex;   
-       }
+.lullaby-list-cover {
+    width: 100%;                     
+}
+.listen {
+    display: flex;
+    justify-content: center;
+}
     .lullaby-head {
         font-size: 16px;
 
@@ -401,32 +433,46 @@ h5{
         font-size: 10px;
     } 
     
-
     .lullaby-cover {
         display: flex;
-        height: 300px;
-        width: 150px;
+        height: 250px;
+        width:250px;
        }
+       .lullaby-cover-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    
+       }
+    
+    
        .lead {
         font-size: 20px;
        }
        
-       .lullaby-cover-img {
-        width: 100%;
-        height: 100%;
-        border-radius: 15px;
-       }
-    
+       
         .container-cover {
-            display: flex;  
+            display: flex; 
+            width: 100%;
             height: 100%;
-            gap: 5px;
+            gap: 10px;
+            padding: 0;
+            padding-top: 20px;
             
         }
-    
+        .lullaby-list-cover {
+            width: 100%;                     
+        }
+        .listen {
+            display: flex;
+            justify-content: center;
+        }
         .lullaby-list  {
             display: flex;  
+            justify-content: center;
+            align-items: center;
             gap: 10px; 
+            
            }
         .lullaby-head {
             font-size: 12px;
@@ -471,4 +517,5 @@ h5{
         .second-img-live{
             width: 145px;
         }
+        
     }
