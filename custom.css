@@ -70,8 +70,7 @@ margin-left: 90px;
 }
 
 .live {
-    height: 100%;
-    width: 100%;
+   max-width: 100%;
     background-color: #000000;
     display: flex;
     justify-content: center;
@@ -79,11 +78,7 @@ margin-left: 90px;
     gap: 30px;  
     padding: 0px;
 }
-.image {
-    height: 180px;
-    width: 200px; 
-    border-radius: 40px; 
-}
+
 
 .container-cover {
     
@@ -207,17 +202,14 @@ a {
     color:  rgb(189, 187, 187);
 }
 .head-center {
-    margin-left: 60px;
+    margin-left: 22px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar-toggler{
     display: none;
 }
 
-.image {
-    height: 200px;
-    width: 200px;
-}
+
 
 
 
@@ -454,17 +446,29 @@ h5{
         h5{
            font-size: 10px;  
         }
+       .navbar-brand {
+            font-size: 23px;
+        }
         svg {
             width: 20px;
             height: 20px;
         }
         .live {
             height: 100px;
+           
+            
         }
         .image {
+            background-size: cover;
             height: 100px;
             width: 100%;
             border-radius: 0
             ;
+        }
+        .first-img-live {
+            width: 145px;
+        }
+        .second-img-live{
+            width: 145px;
         }
     }
