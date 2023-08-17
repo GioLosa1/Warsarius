@@ -295,6 +295,7 @@ h5{
 {
        .lullaby-cover {
         height: 300px;
+        width: 400px;
         border-radius: 100%;
        }
        .lullaby-cover-img {
@@ -306,11 +307,14 @@ h5{
        .container-cover {
         display: flex; 
         height: 100%;
-        gap: 50px;
-        padding: 30px;
+        gap: 15px;
+        padding: 10px;
         padding-top: 20px;
         
     }
+    .lullaby-list-cover {
+            width: 100%;                     
+        }
 
         .lullaby-list  {
             display: flex;
@@ -374,7 +378,7 @@ h5{
     width: 100%;
     height: 100%;
     gap: 10px;
-    padding: 0;
+    padding: 10px;
     padding-top: 20px;
     
 }
@@ -456,7 +460,7 @@ h5{
             width: 100%;
             height: 100%;
             gap: 10px;
-            padding: 0;
+            padding: 10px;
             padding-top: 20px;
             
         }
