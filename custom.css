@@ -179,8 +179,9 @@ ul {
     font-family: sans-serif;
 }
 .listen {
+    margin-top: 30px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-end;
     
 }
@@ -263,10 +264,7 @@ a {
     display: none;
 }
 
-.listen {
-    display: flex;
-    justify-content: center;
-}
+
 
 #mytn {
     display: block;  
@@ -298,7 +296,7 @@ a {
 
 @media  (max-width: 1300px) {
     .live {
-        margin-top: 75px;
+        
         display: flex;
         justify-content: center;
     }
@@ -399,7 +397,7 @@ h5{
         .lullaby-list  {
             display: flex;
             gap: 0;
-            height: 300px;
+           
             
            }
            .lullaby-head {
@@ -424,10 +422,7 @@ h5{
         h5{
             font-size: 10px;  
          }
-        .live {
-            height: 100%;
-            padding-bottom: 20px;
-        }
+        
         .image {
             height: 200px;
             width: 200px;
@@ -436,6 +431,7 @@ h5{
         .listen {
             display: flex;
             justify-content: center;
+            margin-top: 0;
         }
         .war-img {
 
@@ -515,9 +511,7 @@ h5{
         width: 20px;
         height: 20px;
     }
-    .live {
-        height: 100px;
-    }
+   
     .image {
         height: 100px;
         width: 130px;
@@ -629,11 +623,7 @@ h5{
             width: 20px;
             height: 20px;
         }
-        .live {
-            height: 100px;
-           
-            
-        }
+      
         .image {
             background-size: cover;
             height: 100px;
